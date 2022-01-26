@@ -10,20 +10,35 @@ body{
 }
 h1{
     font-size: 100px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
-.content{
+button{
+    border: black solid 3px;
+    background-color: white;
+    color: black;
+    font-family: 'JAH';
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100px;
+}
+button:hover{
+    background-color: rgb(230, 223, 223);
+    border: black solid 3px;
+}
+.grid{
     display: flex;
-    gap: 2px;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 .row{
     display: flex;
-    gap:2px
+    flex-direction: column;
 }
 .box{
-    width: 40px;
-    height: 40px;
+    border: #bdbdbd solid 1px;
+    box-sizing: border-box;
     background-color: white;
 }
